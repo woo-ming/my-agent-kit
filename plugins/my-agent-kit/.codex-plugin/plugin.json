@@ -1,0 +1,18 @@
+{
+  "name": "my-agent-kit",
+  "version": "0.1.0",
+  "description": "Portable development skills for Claude Code and Codex",
+  "author": {
+    "name": "woo-ming"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "My Agent Kit",
+    "shortDescription": "Reusable development workflows on any computer.",
+    "longDescription": "Shared repository overview and code review skills maintained in Git.",
+    "developerName": "woo-ming",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me use My Agent Kit."
+  }
+}

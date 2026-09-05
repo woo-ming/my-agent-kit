@@ -1,0 +1,7 @@
+{
+  "name": "my-agent-kit",
+  "version": "0.1.0",
+  "description": "Portable development skills for Claude Code and Codex",
+  "author": { "name": "woo-ming" },
+  "repository": "https://github.com/woo-ming/my-agent-kit"
+}

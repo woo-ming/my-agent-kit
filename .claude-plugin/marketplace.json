@@ -1,0 +1,11 @@
+{
+  "name": "personal",
+  "owner": { "name": "woo-ming" },
+  "plugins": [
+    {
+      "name": "my-agent-kit",
+      "source": "./plugins/my-agent-kit",
+      "description": "Portable development skills, commands, and agents"
+    }
+  ]
+}
