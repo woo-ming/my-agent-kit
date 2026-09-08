@@ -3,6 +3,7 @@
 개인 개발 환경과 사용하는 도구를 기록한다. 새 컴퓨터에서 환경을 구성하거나 기존 설정을 확인할 때 참고한다.
 
 - 기록일: 2026-09-05
+- 도구 목록 갱신일: 2026-09-08
 - 기본 환경: Apple Silicon Mac, macOS, zsh
 - 저장소: [my-agent-kit](https://github.com/woo-ming/my-agent-kit)
 - 재사용 스킬·커맨드·에이전트 설치 방법: [README](README.md)
@@ -56,6 +57,13 @@ Corretto 25는 사용하는 JDK 기준이다. 현재 터미널의 기본 Java와
 | [Homebrew](https://brew.sh/) | macOS에서 CLI 패키지와 GUI 애플리케이션을 설치·업데이트하는 패키지 관리자. | 개발 도구 설치 및 버전 확인. 현재 환경의 기본 경로는 `/opt/homebrew`. |
 | [Yarn](https://yarnpkg.com/) | JavaScript·Node.js 프로젝트의 패키지 및 의존성을 관리하는 도구. 워크스페이스를 통한 여러 패키지 관리도 지원한다. | 프로젝트 의존성 설치와 스크립트 실행. Yarn 버전과 설정은 각 프로젝트의 기준을 따른다. |
 | [OrbStack](https://orbstack.dev/) | macOS에서 Docker 컨테이너와 Linux 머신을 실행·관리하는 도구. | 로컬 컨테이너, 개발용 서비스 및 Linux 환경 실행. |
+
+## Kubernetes 관리
+
+| 도구 | 설명 | 용도 |
+| --- | --- | --- |
+| [k9s](https://k9scli.io/) | 터미널 UI로 Kubernetes 클러스터의 리소스를 탐색하고 관리하는 도구. 리소스 상태와 변경 사항을 실시간으로 확인할 수 있다. | Pod·Deployment 등 리소스 조회, 컨테이너 로그 확인 및 포트 포워딩을 통한 개발·디버깅. |
+| [OpenLens](https://github.com/MuhammedKalkan/OpenLens) | Lens의 오픈 소스 부분을 기반으로 한 Kubernetes 관리용 데스크톱 GUI. | Kubernetes 클러스터와 워크로드 상태를 시각적으로 확인하고 리소스 탐색·관리. |
 
 ## 브라우저·지식 관리
 
